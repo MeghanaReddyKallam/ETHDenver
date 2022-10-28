@@ -8,7 +8,7 @@ contract BootcampContract {
     uint256 number;
     address user;
 
-    constructor(){
+    modifier(){
         user = msg.sender;
     }
 
